@@ -1,11 +1,11 @@
 # gc_learning_to_code
 ## First Things to do For Class
-1. https://github.com and set up a free account
+1. Go to https://github.com and set up a free account
 2. Download ssh to your computer
 3. Open 'terminal' application on your mac
-    a. hit command space
-    b. entery 'terminal'
-    c. hit enter
+    A. hit command space
+    B. entery 'terminal'
+    C. hit enter
 4. copy and paste the following lines of code into the terminal application
 ```
 cd ~
