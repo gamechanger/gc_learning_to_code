@@ -3,9 +3,9 @@
 1. Go to https://github.com and set up a free account
 2. Download ssh to your computer
 3. Open 'terminal' application on your mac
-    A. hit command space
-    B. entery 'terminal'
-    C. hit enter
+    1. hit command space
+    2. entery 'terminal'
+    3. hit enter
 4. copy and paste the following lines of code into the terminal application
 ```
 cd ~
