@@ -4,7 +4,7 @@
 2. Download ssh to your computer
 3. Open 'terminal' application on your mac
     1. Press command+space
-    2. Enter 'terminal'
+    2. Type 'terminal'
     3. Press enter
 4. Copy and paste the following lines of code into the terminal application
 ```
