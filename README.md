@@ -26,6 +26,7 @@ Idle also allows you to create new files, open old files, and run python files. 
 ## How to Get Your Questions Answered?
 We will be trying to use Github's issue tracker to answer questions on the course.
 If you have an issue or question here are the steps that you should follow:
+
 1. On the main page of the gc_learning_to_code repo (https://github.com/gamechanger/gc_learning_to_code) look on the right hand side of the page and hit the 'Issues' button in the right hand column
 2. Search in issues for a related question that might address your questions
 3. If you do not see a similar issue, then hit the big, green 'New Issue' button
