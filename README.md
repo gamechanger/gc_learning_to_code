@@ -17,10 +17,13 @@ cd gc_learning_to_code
 
 
 ## How to Run the Code?
-We are going to be working in Python. In order to do that we will be using a program called idle.
-To start Idle, open the terminal application and type 'idle'
-Idle's python REPL (Read Eval Print Loop) will start.  This REPL allows you to enter python commands and get back their output.
-Idle also allows you to create new files, open old files, and run python files.  You should familiarize yourself with Idle because we will be using it for the duration of the course.
+We are going to be working in Python. In order to do that we will be using a program called Idle.
+
+*To start Idle, open the terminal application and type 'idle'
+*Idle's python REPL (Read Eval Print Loop) will start.
+*This REPL allows you to enter python commands and get back their output.
+*Idle also allows you to create new files, open old files, and run python files.
+*You should familiarize yourself with Idle because we will be using it for the duration of the course.
 
 
 ## How to Get Your Questions Answered?
