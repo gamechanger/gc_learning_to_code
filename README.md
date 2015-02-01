@@ -39,3 +39,11 @@ If you have an issue or question here are the steps that you should follow:
 
 We want to use this system so that you can more easily see issues that others are having and how they got past them.
 
+
+## Extra Topics You Might Be Interested In
+The engineers have added a page with some topics that you might be interested in.
+
+https://github.com/gamechanger/gc_learning_to_code/wiki/Topics-You-Might-Be-Interested-In
+
+Feel free to add to this page and or request good reference material for topics that are not discussed.
+
