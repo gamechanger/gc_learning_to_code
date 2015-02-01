@@ -1,5 +1,5 @@
 # gc_learning_to_code
-## First Things to do For Class
+## Things to do For the First Class
 1. Go to https://github.com and set up a free account
 2. Open 'terminal' application on your mac
     1. Press command+space
