@@ -26,7 +26,7 @@ We are going to be working in Python. To this end, we will be using a program ca
 * You should familiarize yourself with Idle because we will be using it for the duration of the course
 
 
-## How to Get Your Questions Answered
+## How to Get Your Questions Answered (https://github.com/gamechanger/gc_learning_to_code/issues)
 We will be trying to use Github's issue tracker to answer questions on the course.
 If you have an issue or question here are the steps that you should follow:
 
