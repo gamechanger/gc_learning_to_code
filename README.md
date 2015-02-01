@@ -16,8 +16,22 @@ cd gc_learning_to_code
 ```
 
 
-## How to Run the Code
+## How to Run the Code?
 We are going to be working in Python. In order to do that we will be using a program called idle.
 To start Idle, open the terminal application and type 'idle'
 Idle's python REPL (Read Eval Print Loop) will start.  This REPL allows you to enter python commands and get back their output.
 Idle also allows you to create new files, open old files, and run python files.  You should familiarize yourself with Idle because we will be using it for the duration of the course.
+
+
+## How to Get Your Questions Answered?
+We will be trying to use Github's issue tracker to answer questions on the course.
+If you have an issue or question here are the steps that you should follow:
+1. On the main page of the gc_learning_to_code repo (https://github.com/gamechanger/gc_learning_to_code) look on the right hand side of the page and hit the 'Issues' button in the right hand column
+2. Search in issues for a related question that might address your questions
+3. If you do not see a similar issue, then hit the big, green 'New Issue' button
+4. Write the title of the issue or question and give an in depth description of what is going wrong.
+5. When you file an issue it will ping the \#muggle_coding_help room in slack
+6. One of the engineers should see the message and respond to the issue when they get some time.
+
+We want to use this system so that you guys and girls can more easily find similar issues to what you are having, and how those issues were solved.
+
