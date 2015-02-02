@@ -26,19 +26,19 @@ print(y ** x)
 
 # TODO: Change the values of x and y to make the following statement be true (Feel free to use the REPL to try it out)
 
-print "This should be True:"
+print "- This should be True:"
 print x + y == 5
 
 
 # TODO: Change the values of x and y to make the following statement be true (Feel free to use the REPL to try it out)
 
-print "This should be True:"
+print "- This should be True:"
 print x * y == 5
 
 
 # TODO: Change the values of x and y to make the following statement be true (Feel free to use the REPL to try it out)
 
-print "This should be True:"
+print "- This should be True:"
 print x % y == 5
 
 
@@ -50,7 +50,7 @@ print("--------------------------------------------------")
 
 # TODO: Change the values of x and y, to make both of the following statements be true (Feel free to use the REPL to try it out)
 
-print "Both of these should be true:"
+print "- Both of these should be true:"
 print x / y * y == x
 print x / y == .5
 
@@ -80,7 +80,7 @@ print(y**x)
 
 # TODO: Change the values of x and y, to make both of the following statements be true (Feel free to use the REPL to try it out)
 
-print "Both of these should be true:"
+print "- Both of these should be true:"
 print x / y * y == x
 print x / y == .5
 
@@ -112,10 +112,10 @@ print (True and True)
 # TODO: Comple the string with what you think will be the result of the commented expression. Then verify if you answers are correct.
 
 # (True and False) or (True or False)
-print "The result of this expression will be: "
+print "- The result of this expression will be: "
 
 # (not False or False) and not (False and True)
-print "The result of this expression will be: "
+print "- The result of this expression will be: "
 
 
 
@@ -126,7 +126,7 @@ print("--------------------------------------------------")
 
 # TODO: Change the values of x and y, to make all of the following statements be true (Feel free to use the REPL to try it out)
 
-print "All of these should be true:"
+print "- All of these should be true:"
 print (x and x) == True
 print (x or x) == True
 print (x and x) == x
@@ -160,6 +160,8 @@ print x == "hello"
 print y == "WORLD"
 
 # TODO: Using variables x and y write a statement that will print out "Coding is easy"
+
+print "- What do you think about coding?"
 x = "oding"
 y = "is"
 
@@ -172,6 +174,8 @@ print("--------------------------------------------------")
 
 # TODO: Using variable x and only addition and subtraction make the following statements true
 x = "Fun"
+
+print "- Fun?"
 print x == "Fun, Fun, Fun, Fun, Fun, "
 print x == "Fun, Fun, Fun, Fun, Fun"
 
@@ -186,7 +190,11 @@ print("--------------------------------------------------")
 x = 1
 
 # TODO: Change the value of x, to make the following statement be true (Feel free to use the REPL to try it out)
+
+print "- This should be True:"
 print (len("GameChanger") / 5) * x == 100
 
 # TODO: Change the value of x, to make the following statement be true (Feel free to use the REPL to try it out)
+
+print "- This should be True:"
 print len("GameChanger") / x == .5
