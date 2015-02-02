@@ -2,7 +2,9 @@
 
 
 
-# Section 1: Ints
+# SECTION 1: Ints
+
+
 
 # Activity 1
 print("--------------------------------------------------")
@@ -57,8 +59,9 @@ print x / y == .5
 
 
 
+# SECTION 2: floats
 
-# Section 2: floats
+
 
 # Activity 3
 print("--------------------------------------------------")
@@ -85,7 +88,10 @@ print x / y == .5
 
 
 
-# Section 3: bools
+
+# SECTION 3: bools
+
+
 
 # Activity 4
 print("--------------------------------------------------")
@@ -112,6 +118,7 @@ print "The result of this expression will be: "
 print "The result of this expression will be: "
 
 
+
 # Activity 5
 print("--------------------------------------------------")
 print("Activity 5")
@@ -130,7 +137,10 @@ print (x and y or not x) == True
 
 
 
-# Section 4: strings
+
+# SECTION 4: strings
+
+
 
 # Activity 6
 print("--------------------------------------------------")
