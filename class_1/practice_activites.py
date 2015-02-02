@@ -172,11 +172,13 @@ print("--------------------------------------------------")
 print("Activity 7")
 print("--------------------------------------------------")
 
-# TODO: Using variable x and only addition and subtraction make the following statements true
+# TODO: Using variable x and only addition and multiplication  make the following statements true
 x = "Fun"
 
 print "- Fun?"
 print x == "Fun, Fun, Fun, Fun, Fun, "
+
+x = "Fun"
 print x == "Fun, Fun, Fun, Fun, Fun"
 
 
