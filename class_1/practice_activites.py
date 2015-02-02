@@ -48,11 +48,10 @@ print("--------------------------------------------------")
 print("Activity 2")
 print("--------------------------------------------------")
 
-# TODO: Change the values of x and y, to make both of the following statements be true (Feel free to use the REPL to try it out)
+# TODO: Change the values of x and y to make the following statement be true (Feel free to use the REPL to try it out)
 
-print "- Both of these should be true:"
+print "- This should be true:"
 print x / y * y == x
-print x / y == .5
 
 
 
@@ -78,10 +77,9 @@ print(y/x)
 print(x**y)
 print(y**x)
 
-# TODO: Change the values of x and y, to make both of the following statements be true (Feel free to use the REPL to try it out)
+# TODO: Change the values of x and y to make the following statement be true (Feel free to use the REPL to try it out)
 
-print "- Both of these should be true:"
-print x / y * y == x
+print "- This should be true:"
 print x / y == .5
 
 
@@ -109,13 +107,15 @@ print (False and True)
 print (True and False)
 print (True and True)
 
-# TODO: Comple the string with what you think will be the result of the commented expression. Then verify if you answers are correct.
+# TODO: Complete the string with what you think will be the result of the commented expression. Then verify if you answers are correct.
 
+
+print "- The result of this expression will be: "
 # (True and False) or (True or False)
-print "- The result of this expression will be: "
 
-# (not False or False) and not (False and True)
+
 print "- The result of this expression will be: "
+# (not False or False) and not (False and True)
 
 
 
@@ -159,7 +159,7 @@ print len(x) + len(y)
 print x == "hello"
 print y == "WORLD"
 
-# TODO: Using variables x and y write a statement that will print out "Coding is easy"
+# TODO: Using variables x and y, write a statement that will print out "Coding is easy"
 
 print "- What do you think about coding?"
 x = "oding"
