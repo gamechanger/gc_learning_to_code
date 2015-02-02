@@ -1,4 +1,4 @@
-# Instructions: The point of this file is to get you to apply the concepts covered in class to a practical example. In this case you will be making a simplified version of stat engine. This file contains a list of variables that we have assigned. You're job is to calculate derived stats using those variables. The 'TODO' comments  indicate the places where you need to modify the code.
+# Instructions: The point of this file is to get you to apply the concepts covered in class to a practical example. In this case you will be making a simplified version of stat engine. This file contains a list of variables that we have assigned. You're job is to calculate derived stats using those variables. The 'TODO' comments  indicate the places where you need to modify the code. Remember to assign the calculated stats to the provided variables, so they get printed in the results section.
 
 
 ### 1. HOOPS STAT ENGINE:
