@@ -22,19 +22,19 @@ print(x ** y)
 print(y ** x)
 
 
-# TODO: Change the values of x and y, which cause the following statement to be true? (Feel free to use the REPL to try it out)
+# TODO: Change the values of x and y to make the following statement be true (Feel free to use the REPL to try it out)
 
 print "This should be True:"
 print x + y == 5
 
 
-# TODO: Change the values of x and y, which cause the following statement to be true? (Feel free to use the REPL to try it out)
+# TODO: Change the values of x and y to make the following statement be true (Feel free to use the REPL to try it out)
 
 print "This should be True:"
 print x * y == 5
 
 
-# TODO: Change the values of x and y, which cause the following statement to be true? (Feel free to use the REPL to try it out)
+# TODO: Change the values of x and y to make the following statement be true (Feel free to use the REPL to try it out)
 
 print "This should be True:"
 print x % y == 5
@@ -42,12 +42,11 @@ print x % y == 5
 
 
 # Activity 2
-# What int values for x and y will make the following statements true?
 print("--------------------------------------------------")
 print("Activity 2")
 print("--------------------------------------------------")
 
-# TODO: Change the values of x and y, which cause both of the following statements to be true? (Feel free to use the REPL to try it out)
+# TODO: Change the values of x and y, to make both of the following statements be true (Feel free to use the REPL to try it out)
 
 print "Both of these should be true:"
 print x / y * y == x
@@ -76,7 +75,9 @@ print(y/x)
 print(x**y)
 print(y**x)
 
-# What value for x makes these statements true?
+# TODO: Change the values of x and y, to make both of the following statements be true (Feel free to use the REPL to try it out)
+
+print "Both of these should be true:"
 print x / y * y == x
 print x / y == .5
 
@@ -102,16 +103,23 @@ print (False and True)
 print (True and False)
 print (True and True)
 
-# What value do each of the following statements return?
-(True and False) or (True or False)
-(not False or False) and not (False and True)
+# TODO: Comple the string with what you think will be the result of the commented expression. Then verify if you answers are correct.
+
+# (True and False) or (True or False)
+print "The result of this expression will be: "
+
+# (not False or False) and not (False and True)
+print "The result of this expression will be: "
+
 
 # Activity 5
-# What values for x and y make the following statements true?
 print("--------------------------------------------------")
 print("Activity 5")
 print("--------------------------------------------------")
 
+# TODO: Change the values of x and y, to make all of the following statements be true (Feel free to use the REPL to try it out)
+
+print "All of these should be true:"
 print (x and x) == True
 print (x or x) == True
 print (x and x) == x
@@ -137,24 +145,26 @@ print x + y
 print x + " " + y
 print 2 * x
 print x + str(5) + y
-print x + 5 + y
 print len(x) + len(y)
 print x == "hello"
 print y == "WORLD"
 
-# Using variables x and y write a statement that will print out "Coding is easy"
+# TODO: Using variables x and y write a statement that will print out "Coding is easy"
 x = "oding"
 y = "is"
+
+
 
 # Activity 7
 print("--------------------------------------------------")
 print("Activity 7")
 print("--------------------------------------------------")
 
-# Using variable x and only addition and subtraction make the following statements true
+# TODO: Using variable x and only addition and subtraction make the following statements true
 x = "Fun"
 print x == "Fun, Fun, Fun, Fun, Fun, "
 print x == "Fun, Fun, Fun, Fun, Fun"
+
 
 
 # Activity 8
@@ -164,5 +174,9 @@ print("--------------------------------------------------")
 
 # What values of x so that the following statements are true?
 x = 1
+
+# TODO: Change the value of x, to make the following statement be true (Feel free to use the REPL to try it out)
 print (len("GameChanger") / 5) * x == 100
+
+# TODO: Change the value of x, to make the following statement be true (Feel free to use the REPL to try it out)
 print len("GameChanger") / x == .5
