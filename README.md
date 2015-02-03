@@ -25,6 +25,10 @@ We are going to be working in Python. To this end, we will be using a program ca
 * Idle also allows you to create new files, open old files, and run python files
 * You should familiarize yourself with Idle because we will be using it for the duration of the course
 
+## Homework
+We will not be grading all homeworks, it would take to much time and take away from our ability to do other parts of the course.
+Instead we will be posting homework on-line at the end of each week.
+If you do want someone to look at part or all of your homework, reach out to one of the engineers helping out.
 
 ## How to Get Your Questions Answered (https://github.com/gamechanger/gc_learning_to_code/issues)
 We will be trying to use Github's issue tracker to answer questions on the course.
