@@ -24,6 +24,10 @@ def main():
 		Make sure they only input answers that make sense!
 
 	Play through the demo game to get a feel for how the game should work.
+<<<<<<< Updated upstream
+	If you copy and paste my code I will know...And I will sue your ass for
+	copy write infringement!
+
 
 	Example Question:
 		You have entered a new room.  In the room there are three objects: a sword, a candle and a note.
@@ -36,9 +40,11 @@ def main():
 	    3. You can place loops inside of other loops
 	    	while x:
 	    		while y:
-
+=======
 	If you copy and paste my code I will know...And I will sue you for 
-	copy write infringement.
+	copy write infringement. 
+	
+>>>>>>> Stashed changes
 	"""
 
 
