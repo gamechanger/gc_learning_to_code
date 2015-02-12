@@ -29,7 +29,7 @@ def ex1():
 def ex2():
     # EXERCISE 2 - true false for longer boolean expressions
     question = 0
-    ans_1 = 'fftft'
+    ans_1 = 'fttft'
     print "EXERCISE 2\n"
     while question < 5:
         ans = raw_input("Question {} (t or f): ".format(question+1)).strip().lower()
