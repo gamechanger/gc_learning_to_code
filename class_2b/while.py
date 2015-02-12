@@ -17,12 +17,18 @@ def part1():
     # get the users answer
     # If the answer is not yes/no or y/n ask the question again
     
-    # TODO: DELETE THE LINE BELOW
-    print "YOU HAVEN'T STARTED PART 1 YET!"
 
     # TODO: Ask the user a yes or no question!
-    # TODO: Get the users answer
-    # TODO: Make a while loop to keep asking until you get an acceptable answer
+    answer = raw_input("Do you like Computers? ")
+    
+    while answer != "Yes" and answer != "No":
+	    answer = raw_input("Do you like computers? ")
+
+
+
+
+
+
     #       acceptable answers: Yes, yes, Y, y, No, no, N, n
     #       Hint: you may not need to check for every single one of these!
     # TODO: Print out a response to the users answer to your question
@@ -37,10 +43,6 @@ def part2():
     # if any of the random numbers is 5 break out of the loop
     # if non of the numbers are 5 you win! if one of them was you lose!
 
-    # TODO: DELETE THE 2 LINES BELOW
-    print "YOU HAVEN'T STARTED PART 2 YET!"
-    return
-
     # GETTING A RANDOM NUMBER BETWEEN 1-6
     num = random.randint(1, 6)
 
@@ -50,6 +52,21 @@ def part2():
 
     # TODO: Make a while loop that will run 3 times
     #       Hint: use a counter!
+    turns = 0
+    while turns < 3:
+	    num = random.randint(1, 6)
+	    print "You number is {}".format(num)
+
+            if num == 5:
+		    print "YOU LOSE"
+		    break
+
+	    turns += 1
+
+
+
+
+
     # TODO: generate a random number and print it out
     # TODO: Check if that number is a 5
     # TODO: if it is break out of the loop

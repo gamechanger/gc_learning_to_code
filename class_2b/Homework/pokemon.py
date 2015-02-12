@@ -35,13 +35,10 @@ def create_pokemon():
     # GOAL: Allow the players to create their pokemon
     #       They must follow the rules listed above!
 
-    # TODO: Use a while loop to get all of the pokemon attributes
-    #       Hint: Think about what condition to check!
     print "\nWELCOME PLAYER 1, LETS SET-UP!\n"
-
-    # TODO: Ask the Trainer what they want each attribute to be
-    #       Make sure they follow the rules!
-    #       Hint: You will need to convert health and damage to an int!
+    # TODO: Get the trainers name and all of the pokemon attributes
+    #       Hint: Make sure all the input makes sense
+    #       Hint: You will need to convert health and damage to the right type!
 
     # TODO: Set the global variable to the Trainers desired value
     #       But only if its valid!
@@ -60,7 +57,7 @@ def battle():
     # GOAL: create the logic for a single battle turn
 
     # TODO: figure out which Trainers turn it is, save that in the variable below
-    #       Hint: Use the TURN variable
+    #       Hint: Use conditionals and the TURN variable
     current_trainer = "Ash Ketchum"
 
     # TODO: figure out which Pokemon is attacking, save that in a variable below
@@ -92,6 +89,7 @@ def battle():
     
     # TODO: Apply the damage of that attack to the defending player (for non super effective attacks)
     #       For normal attacks, apply damage for each time the pokemon attacked!!
+    #       For each attack print which attack took place! i.e first, second, third etc.
     #       Don't forget to change the HEALTH variable for the defending pokemon
 
     # DO NOT REMOVE THE LINE BELOW!
@@ -111,7 +109,7 @@ def main():
     TURN = random.randint(1,2)
 
     # This loop goes forever its infinite! We dont know when the battle will end!
-    # The means we need a condition inside to check inside the loop to know when to stop
+    # The means we need a condition inside the loop to check when to stop
     #   Hint: How do we exit an infinite loop?
     while True:
 

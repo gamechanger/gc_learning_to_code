@@ -16,7 +16,8 @@ def part1():
     
     # TODO: Make an if statement that checks the input
     # TODO: print "YOU DID IT" if it is!
-
+    if gc == "GameChanger":
+    	print "YOU DID IT"
 
 def part2():
     # GOAL: Use an if/else statement

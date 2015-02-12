@@ -1,0 +1,75 @@
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::														 :::
+:::	   			   HOW TO USE THE TERMINAL				 :::
+:::														 :::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+OPEN THE TERMINAL:
+
+	1. 	Command-Space
+	2. 	Type Terminal
+	3.  Press Enter
+
+WOAH WHERE ARE WE?
+	This is the command line.
+	We can use the command line to tell the computer to do things,
+	and we can use it to browse our file system.
+	This is your home directory (a director is a folder), some
+	of our favorite folders are stored here:
+		
+		Documents
+		Downloads
+		Movies
+		Music
+		Pictures (etc.)
+	
+	The home directory is where your finder usually starts
+	when you open a new finder window. You can do a few things 
+	from the command line to find out more about your current
+	location...keep reading!
+
+COMMANDS
+	
+	ls -- typing these two letters and hitting enter will show you a
+		  list of what folders and files are in your current directory.
+		  Type ls and check what folders and files are in the home 
+		  directory. Files have an extension (.jpeg, .txt, .py), directories
+		  (folders) do not.
+
+    cd -- this command stands for Change Directory (cd). It allows you to
+          go into a directory that is listed when you use ls. 
+          Try typing:	
+
+          	cd Documents
+          
+          Then press enter. You are now in the Documents folder.
+          To go up a level type:
+
+          	cd ..
+
+          Now you are back in the home directory!
+
+    pwd -- just type pwd (print working directory) with nothing after it and
+           you might see:
+
+    	   		Users/<you name>/Documents		if you are in the Documents Folder or
+    	   		Users/<your name>				if you are in the home directory
+
+    	   That is your current location!
+    	   After each slash is another directory you have cd'd into. 
+    	   Note: sometimes the home directory is denoted with a ~ (tilda) the
+    	   top level directory in your filesystem is denoted with a / (slash).
+
+    With these three commands you can pretty much navigate your entire computer
+    and see all the files and folders that make up your filesystem.
+
+    Wanna try something cool? go to your ~/Documents folder (home directory then
+    cd into Documents). Use ls to look at all of your files. Now type the following:
+
+    	open <some file in your Documents folder>
+
+    If you did this right you computer will use the default application for that
+    type of file to open the file. If you use open on a directory it will open 
+    that folder in the finder.
+
