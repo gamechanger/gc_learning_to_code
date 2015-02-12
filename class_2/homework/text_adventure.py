@@ -3,10 +3,10 @@ def main():
 	"""
 	YOU CAN RUN THIS PROGRAM BY TYPING:
 
-		python text_adventure.py 
+		python text_adventure.py
 
 	ON THE COMMAND LINE IN THE SAME DIRECTORY THAT THIS FILE IS IN.
-	
+
 	In This assignment you will be creating a text based adventure game
 	similar to the demo.py file in this repository.
 	Your adventure can be about anything! Make it a fun adventure for your
@@ -24,9 +24,21 @@ def main():
 		Make sure they only input answers that make sense!
 
 	Play through the demo game to get a feel for how the game should work.
-	If you copy and paste my code I will know...And I will sue your ass for 
+	If you copy and paste my code I will know...And I will sue your ass for
 	copy write infringement!
-	
+
+
+	Example Question:
+		You have entered a new room.  In the room there are three objects: a sword, a candle and a note.
+		Which object would you like to explore?
+	You would continue to ask this question until you get a response of either sword, candle or note.
+
+	Hints:
+	    1. How would you keep track of what question to ask (need some sort of state (a variable maybe?))
+	    2. Your story only needs to progress forward
+	    3. You can place loops inside of other loops
+	    	while x:
+	    		while y:
 	"""
 
 
@@ -36,5 +48,5 @@ def main():
 
 
 
-# DO NOT REMOVE THIS LINE!	
+# DO NOT REMOVE THIS LINE!
 main()
