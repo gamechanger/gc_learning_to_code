@@ -16,11 +16,11 @@ def part1():
     # Ask the user a yes or no question
     # get the users answer
     # If the answer is not yes/no or y/n ask the question again
-    
+
 
     # TODO: Ask the user a yes or no question!
     answer = raw_input("Do you like Computers? ")
-    
+
     while answer != "Yes" and answer != "No":
 	    answer = raw_input("Do you like computers? ")
 
@@ -73,6 +73,28 @@ def part2():
     # TODO: check if the user won or lost!
     #       Hint: remember that counter?
 
+def part3():
+    # GOAL: Write integer division and % logic
+    #
+    # Get two different numbers from the user
+    # In your while loop you will need to subtract y from x
+    # How long should you keep looping?
+    # Keep track of the how many times you subtract y from x
+    # Keep track of the remainder
+
+    # TODO - print out x / y and x % y using a while loop
+    print 'Use the force'
+
+def part4():
+    # GOAL: Figure out if a number is prime
+    #
+    # Get a number from a user and then use while loop to figure
+    # out if the number is prime
+    # What does it mean to be prime?
+
+    # TODO - print out True or False depending on if the number is prime
+    print True
+
 
 ########################################################
 ########################################################
@@ -95,7 +117,7 @@ def main():
     DO NOT CHANGE THIS CODE
     """
     sec = sys.argv[-1]
-    if sec not in ['0', '1', '2']:
+    if sec not in ['0', '1', '2', '3', '4']:
         print "Your command line arguments dont make sense"
         print "Usage: python conditionals.py <number>"
         return
@@ -108,6 +130,10 @@ def main():
         part1()
     elif sec == '2':
         part2()
+    elif sec == '3':
+        part3()
+    elif sec == '4':
+        part4()
     else:
         print "Uh Oh something went wrong"
 
