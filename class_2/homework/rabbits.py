@@ -29,7 +29,31 @@ def main():
 	#		  i.e. store the current population, number of first year rabbits (etc.)
 	# Hint 2: Use a while loop to make sure you calculate population changes
 	#   	  for 20 years!
-	print 'There are 4 bunnies in 2014'
+
+	current_pop=2
+	bunnies=0
+	adoptions=0
+	year=2014
+
+	print "This program calculates the population of rabbits in the GC board room."
+	print "Each year we print the year, the population, the new born  bunnies, and adoptions in the colony."
+	print "So much for more office space!\n"
+
+	while year < 2034:
+		print "The Year is {}".format(year)
+		print "\tcurrent population: {}".format(current_pop)
+		print "\tnew born bunnies: {}".format(bunnies)
+		print "\tadoptions: {}".format(adoptions)
+
+		bunnies = (current_pop/2) * 4
+		adoptions = current_pop/10
+		current_pop = current_pop + bunnies - adoptions
+		year += 1
+		
+		print
+
+	print "\nCopywrite GKBLAST INC. 2015\n"
+
 
 
 
