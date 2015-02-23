@@ -5,7 +5,7 @@ goats = 0
 boats = 0
 runs = 1000000
 
-for _ in range(runs):
+for run in range(runs):
     doors = ['boat', 'goat', 'goat']
 
     random.shuffle(doors)
