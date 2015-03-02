@@ -66,6 +66,35 @@ def part3():
     pass
 
 
+def part4():
+    # GOAL: Write a grocery list app that records grocery items input by the user
+    #       - AND prints out the NEWEST (n) items if asked
+    #       - AND lets a user "undo" an entry
+    #       - AND lets a user "redo" an entry
+    #       - AND quits if the user enters "quit"
+    #
+    # Hints: To support undo/redo, you'll want to keep a second list around
+    #
+    # ##################### Example Usage ####################
+    #
+    # Enter a grocery, or "newest N" to see the most recently added groceries, or "undo"/"redo", or "quit" to quit
+    # >>> bananas
+    #
+    # Enter a grocery, or "newest N" to see the most recently added groceries, or "undo"/"redo", or "quit" to quit
+    # >>> apples
+    #
+    # Enter a grocery, or "newest N" to see the most recently added groceries, or "undo"/"redo", or "quit" to quit
+    # >>> undo
+    #
+    # Enter a grocery, or "newest N" to see the most recently added groceries, or "undo"/"redo", or "quit" to quit
+    # >>> newest 1
+    #
+    # Your newest 1 items are: apples
+    # Enter a grocery, or "newest N" to see the most recently added groceries, or "undo"/"redo", or "quit" to quit
+    # >>> quit
+    pass
+
+
 
 ########################################################
 ########################################################
@@ -85,7 +114,7 @@ def main():
     DO NOT CHANGE THIS CODE
     """
     sec = sys.argv[-1]
-    if sec not in ['1', '2', '3']:
+    if sec not in ['1', '2', '3', '4']:
         print "Your command line arguments dont make sense"
         print "Usage: python conditionals.py <number>"
         return
@@ -98,6 +127,8 @@ def main():
         part2()
     elif sec == '3':
         part3()
+    elif sec == '4':
+        part4()
     else:
         print "Uh Oh something went wrong"
 
