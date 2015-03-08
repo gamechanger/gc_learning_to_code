@@ -49,7 +49,7 @@ def part2():
 def part3():
     # GOAL: Replicate the values() functionality
     #
-    # Turn output (defined below) into a list of the keys of input
+    # Turn output (defined below) into a list of the values of input
     #
     # Example:
     #     input  = {'dog': True, 'cat': True, 'bird': False}
@@ -66,7 +66,7 @@ def part3():
 def part4():
     # GOAL: Replicate the del functionality
     #
-    # As for input form the user.  Make output a new dictionary minus the key from the user
+    # Ask for input from the user.  Make output a new dictionary minus the key from the user
     # If they key does not exist in the dictionary, output should be the same as input
     #
     # Example:
