@@ -25,8 +25,8 @@ def part2():
     print books_for_school
 
 def part3():
-    # GOAL: Write an age store. This should be an interactive app that allows you to input someones name and
-    # store how old that person is.  If you enter someone's name multiple times, the most recent age should
+    # GOAL: Write an age store. This should be an interactive app that allows you to input and store
+    # someones name and age.  If you enter someone's name multiple times, the most recent age should
     # be kept. Print all name: age pairs at the end
     # ##################### Example Usage ####################
     #
