@@ -1,9 +1,8 @@
 """
 Problem 4
 
-Python comes with a bunch of built-in functions and methods (basically functions attached
-to other objects, more on that next week) that we can use very easily. For example, let's say
-you have a string:
+Python comes with a bunch of built-in functions and methods that we can use very easily. 
+For example, let's say you have a string:
 
 my_string = "The quick brown fox"
 
